@@ -1769,7 +1769,7 @@ i:before {
 /* Footer Area css
 ============================================================================================ */
 .footer_widgets_area {
-  background: #131627;
+  background: #b38f3b;
   overflow: hidden;
   padding: 80px 0px;
 }
@@ -1785,72 +1785,25 @@ i:before {
   font-size: 16px;
 }
 
-.subscribe_widget p {
-  font-size: 14px;
-  line-height: 26px;
-  color: #b5aec4;
-  font-weight: 300;
-  font-family: "Poppins", sans-serif;
-  padding-bottom: 20px;
-}
-
-.subscribe_widget .input-group input {
-  background: #2b2e3d;
-  border: none;
-  outline: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  height: 40px;
-  border-radius: 3px;
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-  padding: 0px 15px;
-}
-
-.subscribe_widget .input-group input.placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget .input-group input:-moz-placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget .input-group input::-moz-placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
-.subscribe_widget .input-group input::-webkit-input-placeholder {
-  font-size: 12px;
-  color: #b5aec4;
-  font-family: "Poppins", sans-serif;
-}
-
 .subscribe_widget ul {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .subscribe_widget ul li {
   display: inline-block;
-  margin-right: 32px;
+  margin-right: 12px;
 }
 
 .subscribe_widget ul li a {
-  font-size: 14px;
-  color: #b5aec4;
+  font-size: 30px;
+  color: #fff;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
 
 .subscribe_widget ul li:hover a {
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 .subscribe_widget ul li:last-child {
@@ -1864,19 +1817,19 @@ i:before {
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text {
   font-size: 14px;
   line-height: 26px;
-  color: #b5aec4;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text i {
   padding-right: 5px;
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a {
   font-size: 14px;
   line-height: 26px;
-  color: #b5aec4;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -1884,13 +1837,13 @@ i:before {
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_text a:hover {
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 .twitter_widget .tweets_feed ul .owl-item .tw_content .tweet_date {
   font-size: 14px;
   line-height: 26px;
-  color: #b5aec4;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   padding-top: 15px;
 }
@@ -1898,7 +1851,7 @@ i:before {
 .twitter_widget .tweets_feed ul .owl-item .footer .tweet_time.fright a {
   font-size: 14px;
   line-height: 26px;
-  color: #2bc0a4;
+  color: #1F79A6;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1915,7 +1868,7 @@ i:before {
 .categories_widget ul li a {
   position: relative;
   font-size: 14px;
-  color: #b5aec4;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   line-height: 36px;
   -webkit-transition: all 400ms linear 0s;
@@ -1938,7 +1891,7 @@ i:before {
 
 .categories_widget ul li:hover a {
   padding-left: 15px;
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 .categories_widget ul li:hover a i {
@@ -1951,7 +1904,7 @@ i:before {
 
 .contact_widget a, .contact_widget p, .contact_widget h6 {
   font-size: 14px;
-  color: #b5aec4;
+  color: #fff;
   font-family: "Poppins", sans-serif;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -1959,7 +1912,7 @@ i:before {
 }
 
 .contact_widget a:hover, .contact_widget p:hover, .contact_widget h6:hover {
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 .contact_widget p {
@@ -1972,7 +1925,7 @@ i:before {
 }
 
 .copy_right_area .float-md-left h5 {
-  color: #51545f;
+  color: #fff;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   line-height: 50px;
@@ -1982,14 +1935,14 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
-  color: #51545f;
-  font-size: 14px;
+  color: #fff;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   line-height: 50px;
 }
 
 .copy_right_area .float-md-left h5 a:hover {
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 .copy_right_area .float-md-right .nav li {
@@ -1999,8 +1952,8 @@ i:before {
 .copy_right_area .float-md-right .nav li a {
   padding: 0px;
   line-height: 50px;
-  font-size: 14px;
-  color: #51545f;
+  font-size: 14x;
+  color: #fff;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
@@ -2011,7 +1964,7 @@ i:before {
 }
 
 .copy_right_area .float-md-right .nav li:hover a {
-  color: #2bc0a4;
+  color: #1F79A6;
 }
 
 /* End Footer Area css
