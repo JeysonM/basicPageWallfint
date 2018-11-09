@@ -60,11 +60,6 @@ a:hover, a:focus {
   margin: 0px;
 }
 
-.row .logo {
-  position: absolute;
-  top: 10px;
-}
-
 .p0 {
   padding: 0px;
 }
@@ -252,7 +247,7 @@ i:before {
 }
 
 @media (min-width: 992px) {
-  .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu {
+  .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu .dropdown-menu nsb-w {
     -webkit-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
@@ -1800,7 +1795,7 @@ i:before {
 }
 
 .subscribe_widget ul li a {
-  font-size: 40px;
+  font-size: 75px;
   color: #fff;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
