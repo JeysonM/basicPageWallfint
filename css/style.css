@@ -247,7 +247,7 @@ i:before {
 }
 
 @media (min-width: 992px) {
-  .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu .dropdown-menu nsb-w {
+  .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu .dropdown-toggle {
     -webkit-transition: all 300ms ease-out;
     -o-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
@@ -269,12 +269,12 @@ i:before {
   }
 }
 
-.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li {
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li .dropdown-toggle li {
   display: block;
   margin-right: 0px;
 }
 
-.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li a {
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li a .dropdown-toggle li a {
   padding: 0px 25px;
   line-height: 50px;
   font-family: "Poppins", sans-serif;
@@ -289,16 +289,16 @@ i:before {
   text-transform: capitalize;
 }
 
-.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li a:before {
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li a:before  .dropdown-toggle li a:before {
   display: none;
 }
 
-.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a {
+.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li:hover a .dropdown-toggle li:hover a {
   color: #2bc0a4;
 }
 
 @media (min-width: 992px) {
-  .main_menu_area .navbar .navbar-nav li.submenu:hover.submenu .dropdown-menu {
+  .main_menu_area .navbar .navbar-nav li.submenu:hover.submenu .dropdown-menu .dropdown-toggle {
     -webkit-transform: scaleY(1);
     -ms-transform: scaleY(1);
     transform: scaleY(1);
