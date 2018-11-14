@@ -1785,32 +1785,32 @@ i:before {
   font-size: 16px;
 }
 
-.subscribe_widget ul {
+.follow_widget ul {
   padding-top: 10px;
 }
 
-.subscribe_widget ul li {
+.follow_widget ul li {
   display: inline-block;
   margin-right: 12px;
 }
 
-.subscribe_widget ul li a {
-  font-size: 75px;
+.follow_widget ul li a {
+  font-size: 50px;
   color: #fff;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
 }
 
-.subscribe_widget ul li:hover a {
+.follow_widget ul li:hover a {
   color: #1F79A6;
 }
 
-.subscribe_widget ul li:last-child {
+.follow_widget ul li:last-child {
   margin-right: 0px;
 }
 
-.subscribe_widget {
+.follow_widget {
   margin-left: 30px;
 }
 
